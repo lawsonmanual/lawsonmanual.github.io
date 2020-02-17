@@ -1,14 +1,18 @@
-.title-wrapper{
+*{
+  background-color: whitesmoke;
+  }
+  .title-wrapper{
   width:100%;
-  height:80px;
-  padding: 0;
+  height:100px;
+  padding-top: 15px;
   margin: 0;
+  background-color: white;
 }
 .title-left{
   background-color: #1e90ff;
   height: 80px;
   width: 20%;
-  margin:10px 0 5px 0;
+  margin: 10px 0 5px 0;
   display:inline-block;
   float: left;
 }
@@ -22,6 +26,7 @@
   padding: 0 0;
   margin: 0 0;
   height: 80px;
+  background-color: white;
 }
 .title-right{
   background-color: #1e90ff;
@@ -33,14 +38,16 @@
 }
 .title-border{
   width: 100%;
-  margin:20px 0;
+  margin:0 0;
   border-top: 5px solid #ff69b4;
+  border-bottom: 10px solid white;
   display: block;
+  background-color: white;
 }
 .contents{
   padding: 30px;
   background-color: whitesmoke;
-  height:800px;
+  height:100%;
 }
 .main{
   width:80%;
@@ -50,15 +57,18 @@
   float: right;
   background-color: white;
   box-shadow: 10px 10px darkgray;
+  margin-bottom: 50px;
 }
 .main h2{
   font-size: 30px;
   padding: 0 0px 0 0px;
   margin: 30px;
+  background-color: white;
 }
 p{
   font-size: 20px;
   margin: 30px;
+  background-color: white;
 }
 .side-bar{
   width: 15%;
@@ -99,4 +109,8 @@ li:hover{
 }
 .last{
   border-radius: 0 0 30px 30px;
+}
+.access-counter{
+  float:left;
+  margin: 20px;
 }
