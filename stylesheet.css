@@ -51,7 +51,7 @@
 }
 .main{
   width:80%;
-  float: ;
+  float: right;
   border: 10px solid white;
   border-radius: 30px;
   float: right;
@@ -111,6 +111,98 @@ li:hover{
   border-radius: 0 0 30px 30px;
 }
 .access-counter{
-  float:left;
+  display: flex;
   margin: 20px;
+}
+
+@media screen and (max-width: 670px) and (min-width: 0px) {
+  .title{
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .contents{
+    padding: 10px
+  }
+  .main{
+  float: right;
+  margin:0px;
+  padding: 0px;
+  width:75%;
+  }
+  .main h2{
+   margin: 15px;
+  font-size: 20px;
+  }
+  p{
+  font-size: 15px;
+  margin: 15px;
+  }
+  .side-bar h2{
+    font-size: 15px;
+  }
+  li{
+    font-size: 10px;
+  }
+  .access-counter{
+    float:left;
+  }
+  .side-bar h2{
+    border-radius: 10px 10px 0 0px;
+  }
+  .last{
+    border-radius: 0 0 10px 10px
+  }
+  ul{
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 671px) {
+  .title{
+    font-size: 37px;
+    margin-top:5px;
+    line-height: 80px;
+  }
+  .contents{
+    padding: 10px
+  }
+  .main{
+  float: right;
+  margin:0px;
+  padding: 0px;
+  width:75%;
+  }
+  .main h2{
+   margin: 15px;
+  font-size: 20px;
+  }
+  p{
+  font-size: 15px;
+  margin: 15px;
+  }
+  .side-bar h2{
+    font-size: 15px;
+  }
+  li{
+    font-size: 10px;
+  }
+  .access-counter{
+    float:left;
+  }
+  .side-bar h2{
+    border-radius: 10px 10px 0 0px;
+  }
+  .last{
+    border-radius: 0 0 10px 10px
+  }
+  ul{
+    border-radius: 0 0 10px 10px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 1024px) {
+  .title{
+    font-size: 50px;
+    line-height: 80px;
+    padding-top: 10px;
+  }
 }
